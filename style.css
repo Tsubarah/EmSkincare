@@ -20,6 +20,10 @@ HTML, body {
   padding: 0px;
 }
 
+h1, h2 {
+  color:rgba(142, 14, 122, 1);
+}
+
 .topnav {
   display: flex;
   justify-content: space-between;
@@ -66,4 +70,16 @@ HTML, body {
   object-fit: cover;
 }
 
+.welcome, .treatment {
+  width: 20rem;
+  margin: auto auto;
+}
+
+.welcome h1 {
+  width: 10rem;
+}
+
+.treatment {
+  border: 2px solid black;
+}
 
