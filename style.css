@@ -152,7 +152,22 @@ footer h2 {
     flex-direction: row;
   }
 
+  .welcome {
+    padding-left: 10rem;
+    padding-right: 10rem;
+  }
+
+  .welcome h1 {
+    font-size: 3rem;
+    width: 100%;
+  }
+
   .mobileMenu {
     display: none;
+  }
+
+  .myLinks {
+    display: flex;
+    flex-wrap: nowrap;
   }
 }
