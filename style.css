@@ -166,8 +166,8 @@ footer h2 {
     display: none;
   }
 
-  .myLinks {
+  /* .myLinks {
     display: flex;
     flex-wrap: nowrap;
-  }
+  } */
 }
