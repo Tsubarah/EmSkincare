@@ -71,8 +71,7 @@ h1, h2 {
 }
 
 .welcome, .treatment {
-  width: 20rem;
-  margin: auto auto;
+  padding: 1rem;
 }
 
 .welcome h1 {
@@ -81,9 +80,9 @@ h1, h2 {
 
 .treatment {
   width: 17.5rem;
-  margin-top: 2rem;
+  margin: 2rem auto 0rem;
   padding: 1.5rem;
-  padding-bottom: 2.5rem;
+  padding-bottom: 2rem;
   text-align: center;
   /* border: 2px solid black; */
 }
@@ -141,4 +140,19 @@ h1, h2 {
 footer h2 {
   margin-top: 0rem;
   color: white;
+}
+
+@media (min-width: 1025px) {
+  .hero {
+    height: 20rem;
+  }
+
+  .treatmentsWrapper {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .mobileMenu {
+    display: none;
+  }
 }
