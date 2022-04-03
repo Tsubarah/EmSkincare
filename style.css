@@ -26,6 +26,25 @@ footer {
   margin: 0 auto;
 }
 
+.navMenu {
+  display: flex;
+  justify-content: center;
+  padding-top: 4rem;
+}
+
+.navMenu a {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  font-size: 2rem;
+  color: #000000d1;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.navMenu a:active {
+  text-decoration: underline;
+}
+
 .hero {
   position: relative;
 }
@@ -73,6 +92,12 @@ section.treatments {
 
 .treatments h6 {
   margin: 1rem;
+  color: #000000d1;
+}
+
+.treatments p {
+  max-width: 620px;
+  text-align: center;
 }
 
 .treatment-btn {
