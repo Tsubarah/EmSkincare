@@ -13,9 +13,9 @@
     }
   ]
 
+const item = treatments[0].items[0].price;
 
-
-
+console.log(item)
 
 // const Treatments = () => (
 //   {treatments.map(treatment => (
