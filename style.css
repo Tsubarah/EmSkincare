@@ -112,6 +112,10 @@ section.treatments {
   cursor: pointer;
 }
 
+footer h6 {
+  font-weight: normal;
+}
+
 .footer-logo img {
   max-width: 160px;
   margin: 0 auto;
@@ -120,10 +124,6 @@ section.treatments {
 .social-icons img {
   width: 2rem;
   height: 2rem;
-}
-
-footer h6 {
-  font-weight: normal;
 }
 
 
