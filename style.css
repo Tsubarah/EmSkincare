@@ -63,7 +63,9 @@ footer {
 
 .hero-img {
   display: block;
-  min-width: 400px;
+  /* min-width: 400px; */
+  width: 100%;
+  height: 370px;
 }
 
 section.treatments {
@@ -78,6 +80,13 @@ section.treatments {
   margin-top: 2rem;
 }
 
+.treatment {
+  display: flex;
+  width: 100%;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
 .treatment-icon img {
   max-width: 60px;
   padding-left: 2rem;
@@ -90,7 +99,14 @@ section.treatments {
   font-weight: 10px;
 }
 
+.treatments h2 {
+  font-size: 2rem;
+  color: #000000d1;
+  font-weight: 600;
+}
+
 .treatments h6 {
+  font-size: 1.5rem;
   margin: 1rem;
   color: #000000d1;
 }
@@ -131,6 +147,23 @@ footer h6 {
   .hero-text {
     max-width: 580px;
   }
+
+  .hero-img {
+    width: 100%;
+    height: 400px;
+  }
+
+  .treatment {
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+  }
+}
+
+@media (min-width: 800px) {
+  .treatment {
+    width: 33%;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -144,6 +177,11 @@ footer h6 {
 
   .hero-img {
     width: 100%;
+    height: 531px;
+  }
+
+  .treatment {
+    width: auto;
   }
 
   .treatment-icon img {
