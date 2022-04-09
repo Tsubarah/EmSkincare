@@ -2,6 +2,7 @@ body, html {
   font-family: "Garamond", serif;
   padding: 0px;
   margin: 0px;
+  box-sizing: border-box;
 }
 
 header {
@@ -30,11 +31,12 @@ footer {
   display: flex;
   justify-content: center;
   padding-top: 4rem;
+  min-width: 350px;
 }
 
 .navMenu a {
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
   font-size: 1.5rem;
   color: #000000d1;
   text-decoration: none;
@@ -73,8 +75,8 @@ footer {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  padding-top: 8rem;
-  padding-bottom: 8rem;
+  padding-top: 2rem;
+  padding-bottom: 5rem;
   background-image: url('./assets/images/treatments-background.png');
   background-size: cover;
   background-position: right;
@@ -85,18 +87,18 @@ footer {
 }
 
 .info-text h1 {
-  font-size: 3rem;
+  font-size: 2rem;
   font-weight: 500;
 }
 
 .info-text p {
-  font-size: 1.5rem;
-  padding-left: 3.75rem;
-  padding-right: 3.75rem;
+  font-size: 1.2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
   color: #000000d1;
 }
 
-section.treatments {
+.treatments {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -156,6 +158,59 @@ section.treatments {
   cursor: pointer;
 }
 
+.section-wrapper {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.section-wrapper:nth-child(3n) {
+  background-color: #F6EBE7;
+}
+
+.section-wrapper h2 {
+  padding-top: 3rem;
+}
+
+.service-section-intro {
+  text-align: center;
+}
+
+.service-section-intro p {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 1rem;
+  font-size: 1.2rem;
+  color: #000000d1;
+}
+
+.services {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 350px;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.services p {
+  color: #000000d1;
+}
+
+.services h4 {
+  margin: 0px;
+}
+
+.service {
+  display: flex;
+  padding: 1rem;
+}
+
+.service-type {
+  width: 100%;
+}
+
 footer h6 {
   font-weight: normal;
 }
@@ -172,6 +227,12 @@ footer h6 {
 
 
 @media (min-width: 600px) {
+
+  .navMenu a {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
   .hero-text {
     max-width: 580px;
   }
@@ -186,11 +247,49 @@ footer h6 {
     align-items: center;
     width: 50%;
   }
+
+  .services {
+    margin: 0 auto;
+  }
+
+  .info-text {
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+
+  .info-text h1 {
+    font-size: 2.5rem;
+  }
+
+  .info-text p {
+    font-size: 1.5rem;
+  }
 }
 
 @media (min-width: 800px) {
   .treatment {
     width: 33%;
+  }
+
+  .info-text {
+    max-width: 600px;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+  }
+
+  .section-wrapper h2 {
+    font-size: 2rem;
+  }
+
+  .services {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 800px;
+  }
+
+  .service {
+    width: 40%;
   }
 }
 
@@ -218,6 +317,18 @@ footer h6 {
   }
 
   .treatments h6, .treatments p {
+    font-size: 1.2rem;
+  }
+
+  .info-text {
+    max-width: 800px;
+  }
+
+  .info-text h1 {
+    font-size: 3rem;
+  }
+
+  .services h4 {
     font-size: 1.2rem;
   }
 
