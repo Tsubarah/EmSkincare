@@ -68,6 +68,34 @@ footer {
   height: 370px;
 }
 
+.treatment-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding-top: 8rem;
+  padding-bottom: 8rem;
+  background-image: url('./assets/images/treatments-background.png');
+  background-size: cover;
+  background-position: right;
+}
+
+.info-text {
+  max-width: 800px;
+}
+
+.info-text h1 {
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+.info-text p {
+  font-size: 1.5rem;
+  padding-left: 3.75rem;
+  padding-right: 3.75rem;
+  color: #000000d1;
+}
+
 section.treatments {
   display: flex;
   flex-direction: column;
