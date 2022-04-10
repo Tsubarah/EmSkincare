@@ -197,6 +197,7 @@ footer {
 
 .services p {
   color: #000000d1;
+  margin-top: 0.5rem;
 }
 
 .services h4 {
@@ -331,6 +332,10 @@ footer h6 {
 
   .services h4 {
     font-size: 1.2rem;
+  }
+
+  .services p {
+    font-size: 1.1rem;
   }
 
   footer h6 {
