@@ -70,6 +70,17 @@ footer {
   height: 370px;
 }
 
+.about-me {
+  padding-right: 6rem;
+  padding-left: 6rem;
+}
+
+.about-me-container {
+  display: flex;
+  background-color: #f6ebe7;
+  padding: 6rem;
+}
+
 .treatment-info {
   display: flex;
   flex-direction: column;
