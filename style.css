@@ -71,14 +71,30 @@ footer {
 }
 
 .about-me {
-  padding-right: 6rem;
-  padding-left: 6rem;
+  padding-right: 10rem;
+  padding-left: 10rem;
 }
 
 .about-me-container {
   display: flex;
   background-color: #f6ebe7;
   padding: 6rem;
+}
+
+.about-me-container img {
+  max-width: 480px;
+}
+
+.about-me-text {
+  padding: 3rem 5rem 3rem 5rem;
+}
+
+.about-me-text h1 {
+  font-size: 2rem;
+}
+
+.about-me-text p {
+  line-height: 1.5;
 }
 
 .treatment-info {
