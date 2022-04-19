@@ -1,6 +1,7 @@
 const treatments = [
   {
-    name: "Brows",
+    class: "lashes-brows",
+    name: "Lashes & Brows",
     description: "Lorem, ipsum dolor.",
     items: [
       {

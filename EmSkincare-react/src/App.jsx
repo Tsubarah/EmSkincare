@@ -1,9 +1,9 @@
 import { useState } from "react"
 import { Routes, Route } from "react-router-dom"
 import Navbar from './components/Navbar'
-import Home from "./pages/Home"
-import About from "./pages/About"
-import Treatments from "./pages/Treatments"
+import HomePage from "./pages/HomePage"
+import AboutPage from "./pages/AboutPage"
+import ServicesPage from "./pages/ServicesPage"
 import Footer from "./components/footer"
 import "./style.css"
 
@@ -30,9 +30,9 @@ function App() {
       <Navbar />
       
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/treatments" element={<Treatments />} />
+        <Route path="/" element={<HomePage />} />
+        <Route path="/about" element={<AboutPage />} />
+        <Route path="/services" element={<ServicesPage />} />
       </Routes>
 
       <Footer />
