@@ -9,7 +9,7 @@ export default function Navbar() {
           <img src="./assets/images/logo.png" alt="Logo of Emskin" />
         </a>
         <div className="navMenu">
-          <NavLink exact to="/">Home</NavLink>
+          <NavLink to="/">Home</NavLink>
           <NavLink to="/about">About</NavLink>
           <NavLink to="/treatments">Treatments</NavLink>
           <NavLink to="/contact">Contact</NavLink>
