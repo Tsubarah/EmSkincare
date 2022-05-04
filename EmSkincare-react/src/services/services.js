@@ -1,6 +1,6 @@
 const services = [
   {
-    class: "facial",
+    section: "facial",
     name: "Facial & Body Treatments",
     description: "A 90 minute facial is recommended for costumers in need of longer extraction or a longer massage.",
     items: [
@@ -43,7 +43,7 @@ const services = [
     ]
   },
   {
-    class: "lashes-brows",
+    section: "lashes-brows",
     name: "Lashes & Brows",
     description: "Brows can change it all. Try out styling and tinting your brows and see the difference.",
     items: [
@@ -86,7 +86,7 @@ const services = [
     ],
   },
   {
-    class: "massage",
+    section: "massage",
     name: "Massage",
     description: "A well needed massage can improve your performance by reducing stress.",
     items: [
@@ -117,7 +117,7 @@ const services = [
     ],
   },
   {
-    class: "waxing",
+    section: "waxing",
     name: "Waxing",
     description: "Add content about waxing",
     items: [
@@ -190,7 +190,7 @@ const services = [
     ],
   },
   {
-    class: "pedicure",
+    section: "pedicure",
     name: "Pedicure",
     description: "Add content about pedicure",
     items: [
