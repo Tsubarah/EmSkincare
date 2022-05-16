@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import Service from '../components/Service'
 
 export default function ServicesPage() {
@@ -214,8 +214,6 @@ export default function ServicesPage() {
       ],
     },
   ]
-
-  console.log(services)
 
   return (
     services.map(service => {
