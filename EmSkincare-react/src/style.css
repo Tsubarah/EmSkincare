@@ -1,3 +1,8 @@
+* {
+  font-family: "Garamond", serif;
+  box-sizing: border-box;
+}
+
 header {
   padding: 4rem 0;
 }
@@ -142,7 +147,8 @@ footer {
 }
 
 .treatment-icon img {
-  max-width: 60px;
+  height: auto;
+  max-width: 100%;
   padding-left: 2rem;
   padding-right: 2rem;
 }

@@ -1,9 +1,10 @@
-import React from 'react'
+import heroImg from '../../public/assets/images/heroImage.jpg'
 
 export default function Hero() {
+  console.log(heroImg)
   return (
     <section className="hero">
-        <img className="hero-img" src="./assets/images/heroImage.jpg" alt="hero" />
+      <img className="hero-img" src={heroImg} alt="hero" />
       <div className="hero-text">
         <h1>Professional skincare for you.</h1>
         <p>Welcome to EmSkincare, a modern salon located in the heart of Antibes where we tailor skincare to your desire.  It is our pleasure to give your skin and body the love and care it deserves.</p>

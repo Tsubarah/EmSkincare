@@ -1,13 +1,19 @@
-import React from 'react'
+import body from '../../public/assets/icons/body.png'
+import eyebrow from '../../public/assets/icons/eyebrow.png'
+import face from '../../public/assets/icons/face.png'
+import massage from '../../public/assets/icons/massage.png'
+import pedicure from '../../public/assets/icons/pedicure.png'
+import wax from '../../public/assets/icons/wax.png'
 
 export default function TreatmentIcons() {
+  console.log(wax)
   return (
       <>
       <h2>Our Treatments</h2>
       <div className="treatment-container">
         <div className="treatment">
           <div className="treatment-icon">
-            <img src="./assets/icons/facial-treatment.png" alt="" />
+            <img src={face} alt="" />
           </div>
           <div className="treatment-title">
             <h6>Facial</h6>
@@ -16,7 +22,7 @@ export default function TreatmentIcons() {
   
         <div className="treatment">
           <div className="treatment-icon"> 
-            <img src="./assets/icons/eyebrow.png" alt="" />
+            <img src={eyebrow} alt="" />
           </div>
           <div className="treatment-title">
             <h6>Lashes & Brows</h6>
@@ -25,7 +31,7 @@ export default function TreatmentIcons() {
 
         <div className="treatment">
           <div className="treatment-icon"> 
-            <img src="./assets/icons/massage.png" alt="" />
+            <img src={massage} alt="" />
           </div>
           <div className="treatment-title">
             <h6>Massage</h6>
@@ -34,7 +40,7 @@ export default function TreatmentIcons() {
 
         <div className="treatment">
           <div className="treatment-icon"> 
-            <img src="./assets/icons/body.png" alt="" />
+            <img src={body} alt="" />
           </div>
           <div className="treatment-title">
             <h6>Body</h6>
@@ -43,7 +49,7 @@ export default function TreatmentIcons() {
 
         <div className="treatment">
           <div className="treatment-icon"> 
-            <img src="./assets/icons/waxing.png" alt="" />
+            <img src={wax} alt="" />
           </div>
           <div className="treatment-title">
             <h6>Waxing</h6>
@@ -52,7 +58,7 @@ export default function TreatmentIcons() {
   
         <div className="treatment">
           <div className="treatment-icon">
-            <img src="./assets/icons/pedicure.png" alt="" />
+            <img src={pedicure} alt="" />
           </div>
           <div className="treatment-title">
             <h6>Pedicure</h6>
