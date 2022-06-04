@@ -245,6 +245,10 @@ footer {
   width: 100%;
 }
 
+.service-description p {
+  margin-bottom: 0px;
+}
+
 footer h6 {
   font-weight: normal;
 }
