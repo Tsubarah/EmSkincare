@@ -11,7 +11,7 @@ export default function HomePage() {
       
       <p>Get your treatment done for a great mood. Simple pleasures can make your week, not just day</p>
       
-      <a href="/treatments.html" className="treatment-btn">VIEW SERVICE MENU</a>
+      <a href="/services" className="treatment-btn">VIEW SERVICE MENU</a>
     </section>
   </main>
   )
