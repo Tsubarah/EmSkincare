@@ -1,9 +1,9 @@
-import body from '../../public/assets/icons/body.png'
-import eyebrow from '../../public/assets/icons/eyebrow.png'
-import face from '../../public/assets/icons/face.png'
-import massage from '../../public/assets/icons/massage.png'
-import pedicure from '../../public/assets/icons/pedicure.png'
-import wax from '../../public/assets/icons/wax.png'
+import body from '/assets/icons/body.png'
+import eyebrow from '/assets/icons/eyebrow.png'
+import face from '/assets/icons/face.png'
+import massage from '/assets/icons/massage.png'
+import pedicure from '/assets/icons/pedicure.png'
+import wax from '/assets/icons/wax.png'
 
 export default function TreatmentIcons() {
   console.log(wax)
