@@ -7,21 +7,6 @@ import ServicesPage from "./pages/ServicesPage"
 import Footer from "./components/footer"
 import "./style.css"
 
-const treatments = [
-  {
-    name: "Brows",
-    description: "Lorem, ipsum dolor.",
-    items: [
-      {
-        itemName: "Brow Wax & Style",
-        itemDescription: "Description",
-        price: 99,
-        duration: "20min",
-      },
-    ],
-  },
-]
-
 function App() {
   const [count, setCount] = useState(0)
 

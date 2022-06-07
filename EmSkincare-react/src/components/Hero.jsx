@@ -1,7 +1,6 @@
 import heroImg from '/assets/images/heroImage.jpg'
 
 export default function Hero() {
-  console.log(heroImg)
   return (
     <section className="hero">
       <img className="hero-img" src={heroImg} alt="hero" />

@@ -1,12 +1,11 @@
 import body from '/assets/icons/body.png'
 import eyebrow from '/assets/icons/eyebrow.png'
-import face from '/assets/icons/face.png'
+import face from '/assets/icons/facial-treatment.png'
 import massage from '/assets/icons/massage.png'
 import pedicure from '/assets/icons/pedicure.png'
-import wax from '/assets/icons/wax.png'
+import wax from '/assets/icons/waxing.png'
 
 export default function TreatmentIcons() {
-  console.log(wax)
   return (
       <>
       <h2>Our Treatments</h2>

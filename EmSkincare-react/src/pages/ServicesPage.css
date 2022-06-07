@@ -1,105 +1,4 @@
-* {
-  font-family: "Garamond", serif;
-  box-sizing: border-box;
-}
-
-header {
-  padding: 4rem 0;
-}
-
-section + section {
-  margin-top: 4rem;
-}
-
-footer {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: #f6ebe7;
-  padding: 3rem;
-}
-
-.logo img {
-  display: block;
-  max-width: 200px;
-  margin: 0 auto;
-}
-
-.navMenu {
-  display: flex;
-  justify-content: center;
-  padding-top: 4rem;
-  min-width: 350px;
-}
-
-.navMenu a {
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
-  font-size: 1.5rem;
-  color: #000000d1;
-  text-decoration: none;
-  cursor: pointer;
-}
-
-.navMenu a:active {
-  text-decoration: underline;
-}
-
-/* .hero {
-  position: relative;
-  height: 370px;
-}
-
-.hero-text {
-  position: absolute;
-  top: 3.5rem;
-  font-size: 1.25rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
-
-.hero-text h1 {
-  font-size: 1.45rem;
-}
-
-.hero-img {
-  display: block;
-  height: 370px;
-} */
-
-/* .about-me {
-  padding-right: 10rem;
-  padding-left: 10rem;
-}
-
-.about-me-container {
-  display: flex;
-  background-color: #f6ebe7;
-  padding: 5rem;
-}
-
-.about-me-container img {
-  max-width: 480px;
-  height: 100%;
-}
-
-.about-me-text {
-  padding-left: 5rem;
-}
-
-.about-me-text h1 {
-  margin-top: 1.5rem;
-  font-size: 2.2rem;
-}
-
-.about-me-text p {
-  font-size: 1.2rem;
-  line-height: 1.5;
-  color: #000000d1;
-  font-family: "Jost";
-} */
-
-/* .treatment-info {
+.treatment-info {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -251,39 +150,10 @@ footer {
 
 .service-price p {
   margin-top: 0px;
-} */
-
-footer h6 {
-  font-weight: normal;
-}
-
-.footer-logo img {
-  max-width: 160px;
-  margin: 0 auto;
-}
-
-.social-icons {
-  display: flex;
-  justify-content: space-between;
-  width: 4rem;
-}
-
-.social-icons img {
-  width: 2rem;
-  height: 2rem;
 }
 
 @media (min-width: 600px) {
-  .navMenu a {
-    padding-left: 1.5rem;
-    padding-right: 1.5rem;
-  }
-
-  /* .hero-text {
-    max-width: 580px;
-  } */
-
-  /* .treatment {
+  .treatment {
     flex-direction: column;
     align-items: center;
     width: 50%;
@@ -304,11 +174,11 @@ footer h6 {
 
   .info-text p {
     font-size: 1.5rem;
-  } */
+  }
 }
 
 @media (min-width: 800px) {
-  /* .treatment {
+  .treatment {
     width: 33%;
   }
 
@@ -331,31 +201,10 @@ footer h6 {
 
   .service {
     width: 40%;
-  } */
+  }
 }
 
 @media (min-width: 1200px) {
-  /* .hero {
-    height: auto;
-  }
-
-  .hero-text {
-    max-width: 600px;
-    top: 16vw;
-    left: auto;
-    right: 47.5vw;
-    transform: translateY(-50%);
-  }
-
-  .hero-text h1 {
-    font-size: 2.5rem;
-  }
-
-  .hero-img {
-    width: 100%;
-    height: auto;
-  }
-
   .treatment {
     width: auto;
   }
@@ -384,41 +233,17 @@ footer h6 {
 
   .services p {
     font-size: 1.1rem;
-  } */
-
-  footer h6 {
-    margin-top: 1.5rem;
-    font-size: 1.2rem;
   }
 }
 
-/* @media (min-width: 1400px) {
-  .hero-text {
-    right: 50vw;
-    max-width: 600px;
-    font-size: 1.35rem;
-  }
-
-  .hero-text h1 {
-    font-size: 2.8rem;
-  }
-
+@media (min-width: 1400px) {
   .treatments h2 {
     font-size: 1.5rem;
   }
-} */
+}
 
-/* @media (min-width: 1600px) {
-  .hero-text {
-    max-width: 720px;
-    font-size: 1.65rem;
-  }
-
-  .hero-text h1 {
-    font-size: 3.5rem;
-  }
-
+@media (min-width: 1600px) {
   .treatments h2 {
     font-size: 2rem;
   }
-} */
+}

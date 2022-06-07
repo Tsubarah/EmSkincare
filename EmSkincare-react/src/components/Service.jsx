@@ -10,7 +10,10 @@ const Service = ({ section, name, description, item }) => {
 
       <div className="services">
         {item.map(item => {
-          return  <div className="service">
+          return  <div 
+                    className="service" 
+                    key={item.itemName}
+                  >
                     <div className="service-description">
                       <h4>{item.itemName}</h4>
                       <p>{item.itemDescription}</p>

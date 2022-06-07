@@ -1,5 +1,6 @@
 import Hero from '../components/Hero'
 import TreatmentIcons from '../components/TreatmentIcons'
+import './HomePage.css'
 
 export default function HomePage() {
   return (
