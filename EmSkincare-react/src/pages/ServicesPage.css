@@ -90,9 +90,6 @@
 
 .section-wrapper {
   margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
 }
 
 .section-wrapper:nth-child(odd) {
@@ -228,7 +225,7 @@
   }
 
   .services h4 {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
   }
 
   .services p {

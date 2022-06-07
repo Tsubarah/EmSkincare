@@ -1,12 +1,12 @@
-import React from 'react'
 import { NavLink } from 'react-router-dom'
+import logo from '/assets/images/logo.png'
 
 export default function Navbar() {
   return (
     <header>
       <div className="topnav">
         <a href="/" className="logo">
-          <img src="./assets/images/logo.png" alt="Logo of Emskin" />
+          <img src={logo} alt="Logo of Emskin" />
         </a>
         <div className="navMenu">
           <NavLink to="/">Home</NavLink>
