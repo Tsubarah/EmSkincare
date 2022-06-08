@@ -1,12 +1,12 @@
 import './AboutPage.css'
-import placeholder from '/assets/images/placeholder-emelie.jpg'
+import emelie from '/assets/images/EmelieProfile.jpg'
 
 export default function AboutPage() {
   return (
     <main className="wrapper">
     <section className="about-me">
       <div className="about-me-container">
-        <img src={placeholder} alt="placeholder for Emelie" />
+        <img src={emelie} alt="placeholder for Emelie" />
         
         <div className="about-me-text">
           <h1>Our Story</h1>
