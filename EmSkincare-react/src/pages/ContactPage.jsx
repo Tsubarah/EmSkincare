@@ -1,6 +1,7 @@
-import phone from '/assets/icons/telephone.png';
+import phone from '/assets/icons/phone.png';
 import mail from '/assets/icons/email.png';
-import location from '/assets/icons/address.png';
+import location from '/assets/icons/location.png';
+import facebook from '/assets/icons/facebookMini2.png'
 import emSkincareClinic from '/assets/images/emSkincareClinic.jpg';
 import './ContactPage.css'
 
@@ -12,6 +13,25 @@ export default function ContactPage() {
       </h1>
       <div className="contact-container">
         <img src={emSkincareClinic} alt="" />
+        <article className="contact-intro">
+          <div className="contact-description">
+            <p>Whether you want to know more about our offers, make an appointment for a treatment or come for a cconsultation, you are welcome to contact us. Below you will find contact information for our clinic</p>
+          </div>
+          <div className="opening-hours">
+            <h2>Opening Hours</h2>
+            <p>Monday - Friday: 08.30 - 16.00</p>
+            <p>Saturday - Sunday: 10.00 - 16.00</p>
+            <p>Lunch closed: 12.00 - 13.00</p>
+          </div>
+          <a 
+            href="https://facebook.com" 
+            target="_blank" 
+            className="facebook-btn"
+          >
+            <img src={facebook} alt="" />
+            Like us on facebook!
+          </a>
+        </article>
       </div>
 
       <div className="contact-info">
@@ -31,7 +51,6 @@ export default function ContactPage() {
           <img src={phone} alt="" />
           <h4>PHONE</h4>
           <p>+46722896917</p>
-          {/* <p>Mon-Fri 10-16</p> */}
         </div>
       </div>
       
