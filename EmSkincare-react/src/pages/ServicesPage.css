@@ -6,8 +6,9 @@
   padding-top: 2rem;
   padding-bottom: 5rem;
   background-image: url("./assets/images/treatments-background.png");
-  background-size: cover;
-  background-position: right;
+  background-position: left;
+  /* background-size: cover;
+  background-position: right; */
 }
 
 .info-text {
@@ -202,6 +203,11 @@
 }
 
 @media (min-width: 1200px) {
+  .treatment-info {
+    background-size: cover;
+    background-position: right;
+  }
+  
   .treatment {
     width: auto;
   }
