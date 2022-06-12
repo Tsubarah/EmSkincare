@@ -44,6 +44,7 @@ footer {
   align-items: center;
   height: 3rem;
   min-width: 350px;
+  margin-bottom: 3rem;
   background-color: white;
   z-index: 1;
 }
