@@ -5,9 +5,11 @@ export default function Navbar() {
   return (
     <header>
       <div className="topnav">
-        <a href="/" className="logo">
-          <img src={logo} alt="Logo of Emskin" />
-        </a>
+        <div className="logo-container">
+          <a href="/" className="logo">
+            <img src={logo} alt="Logo of Emskin" />
+          </a>
+        </div>
         <div className="navMenu">
           <NavLink to="/">Home</NavLink>
           <NavLink to="/about">About</NavLink>
