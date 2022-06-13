@@ -162,6 +162,7 @@
   }
 
   .info-text {
+    max-width: 600px;
     padding-left: 2.5rem;
     padding-right: 2.5rem;
   }
@@ -181,9 +182,13 @@
   }
 
   .info-text {
-    max-width: 600px;
+    max-width: 800px;
     padding-left: 2.5rem;
     padding-right: 2.5rem;
+  }
+
+  .info-text h1 {
+    font-size: 3rem;
   }
 
   .section-wrapper h2 {
@@ -224,10 +229,6 @@
 
   .info-text {
     max-width: 800px;
-  }
-
-  .info-text h1 {
-    font-size: 3rem;
   }
 
   .services h4 {
