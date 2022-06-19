@@ -1,5 +1,5 @@
-import { useState } from 'react'
-import { Routes, Route } from 'react-router-dom'
+import { AnimatePresence } from 'framer-motion'
+import { Routes, Route, useLocation } from 'react-router-dom'
 import Navbar from './components/Navbar'
 import HomePage from './pages/HomePage'
 import AboutPage from './pages/AboutPage'
@@ -9,18 +9,20 @@ import Footer from './components/footer'
 import './style.css'
 
 function App() {
-  const [count, setCount] = useState(0)
+  const location = useLocation()
 
   return (
     <div className="App">
       <Navbar />
       
-      <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/about" element={<AboutPage />} />
-        <Route path="/services" element={<ServicesPage />} />
-        <Route path="/contact" element={<ContactPage />} />
-      </Routes>
+      <AnimatePresence exitBeforeEnter>
+        <Routes location={location} key={location.pathname}>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/about" element={<AboutPage />} />
+          <Route path="/services" element={<ServicesPage />} />
+          <Route path="/contact" element={<ContactPage />} />
+        </Routes>
+      </AnimatePresence>
 
       <Footer />
     </div>
