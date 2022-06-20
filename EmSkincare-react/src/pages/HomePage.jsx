@@ -21,7 +21,9 @@ export default function HomePage() {
               <TreatmentIcons 
                 key={icon.type} 
                 iconType={icon.type} 
-                iconImg={icon.image} />
+                iconImg={icon.image} 
+                iconDescription={icon.description}
+              />
               ))
             }
           </div>
