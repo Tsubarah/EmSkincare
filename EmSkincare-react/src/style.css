@@ -67,68 +67,6 @@ footer {
   text-decoration: underline;
 }
 
-.treatments {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.treatment-container {
-  flex-flow: row wrap;
-  display: flex;
-  margin-top: 2rem;
-}
-
-.treatment {
-  display: flex;
-  width: 100%;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-}
-
-.treatment-icon img {
-  height: auto;
-  max-width: 100%;
-  padding-left: 2rem;
-  padding-right: 2rem;
-}
-
-.treatment-title {
-  text-align: center;
-  font-size: 1.5rem;
-  font-weight: 10px;
-}
-
-.treatments h2 {
-  font-size: 2rem;
-  color: #000000d1;
-  font-weight: 600;
-}
-
-.treatments h6 {
-  font-size: 1.5rem;
-  margin: 1rem;
-  color: #000000d1;
-}
-
-.treatments p {
-  max-width: 620px;
-  text-align: center;
-}
-
-.treatment-btn {
-  padding: 1rem 2rem 1rem 2rem;
-  margin: 2rem 2rem 4rem 2rem;
-  letter-spacing: 0.1rem;
-  font-size: 0.75rem;
-  color: white;
-  font-weight: bold;
-  background-color: black;
-  text-decoration: none;
-  border: none;
-  cursor: pointer;
-}
-
 footer h6 {
   font-weight: normal;
 }
@@ -156,6 +94,7 @@ footer h6 {
 }
 
 .slider {
+  min-width: 400px;
   margin-left: 50%;
   margin-bottom: 5rem;
   transform: translateX(-50%);
@@ -169,29 +108,10 @@ footer h6 {
   outline: none;
 }
 
-/* .slick-slide img {
-  margin-left: 50%;
-  margin-bottom: 5rem;
-  transform: translateX(-50%);
-  border: 5px solid #f6ebe7;
-} */
-
 @media (min-width: 600px) {
   .navMenu a {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
-  }
-
-  .treatment {
-    flex-direction: column;
-    align-items: center;
-    width: 50%;
-  }
-}
-
-@media (min-width: 800px) {
-  .treatment {
-    width: 33%;
   }
 }
 
@@ -201,29 +121,4 @@ footer h6 {
     font-size: 1.2rem;
   }
 
-  .treatment {
-    width: auto;
-  }
-
-  .treatment-icon img {
-    padding-left: 3rem;
-    padding-right: 3rem;
-  }
-
-  .treatments h6,
-  .treatments p {
-    font-size: 1.2rem;
-  }
-}
-
-@media (min-width: 1400px) {
-  .treatments h2 {
-    font-size: 1.5rem;
-  }
-}
-
-@media (min-width: 1600px) {
-  .treatments h2 {
-    font-size: 2rem;
-  }
 }
