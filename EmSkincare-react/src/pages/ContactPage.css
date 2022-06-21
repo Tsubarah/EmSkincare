@@ -10,13 +10,14 @@
 }
 
 .contact-container {
+  position: relative;
   display: flex;
   flex-direction: column;
   align-items: center;
   max-width: 1200px;
   margin: auto;
   margin-bottom: 5rem;
-  padding: 5rem;
+  padding: 5rem 2rem 5rem 2rem;
   background-color: #f6ebe7;
 }
 
@@ -25,12 +26,24 @@
 }
 
 .contact-description {
-  margin-top: 2rem;
-  margin-bottom: 3rem;
+  padding: 1rem;
+  /* margin-top: 2rem;
+  margin-bottom: 3rem; */
 }
 
 .contact-description p {
+  font-size: 1.2rem;
   line-height: 1.5rem;
+}
+
+.contact-intro {
+  max-width: 400px;
+}
+
+.opening-hours {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .opening-hours p {
@@ -40,9 +53,9 @@
 }
 
 .adress, .mail, .phone {
-  width: 350px;
+  width: 300px;
   margin: auto;
-  margin-bottom: 5rem;
+  margin-bottom: 2rem;
   padding: 2rem;
   text-align: center;
   border-radius: 10px;
@@ -50,7 +63,10 @@
 }
 
 .facebook-btn {
-  margin-left: 24rem;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 2rem;
   padding: 0.5rem;
   text-decoration: none;
   white-space: nowrap;
@@ -66,7 +82,6 @@
 .facebook-btn:hover {
   background-color: #f9d9cd;
   box-shadow: 0px 15px 20px rgba(244, 241, 210, 0.938);
-  transform: translateY(-7px);
 }
 
 .facebook-btn img {
@@ -74,10 +89,49 @@
   margin-right: 0.3rem;
 }
 
-@media (min-width: 1150px) {
+@media (min-width: 600px) {
+  .adress, .mail, .phone {
+    width: 350px;
+  }
+}
+
+@media (min-width: 700px) {
+  .contact-container {
+    padding: 5rem;
+  }
+
+  .contact-intro p {
+    font-size: 1.4rem;
+  }
+}
+
+@media (min-width: 900px) {
   .contact-container {
     display: flex;
     flex-direction: row;
+  }
+
+  .facebook-btn {
+    position: absolute;
+    left: 90%;
+  }
+
+  .opening-hours {
+    align-items: flex-start;
+  }
+
+  .contact-description {
+    padding: 0;
+  }
+
+  .contact-intro {
+    margin-left: 2rem;
+  }
+}
+
+@media (min-width: 1150px) {
+  .contact-description {
+    padding: 0;
   }
 
   .contact-description p {
@@ -95,5 +149,9 @@
     justify-content: center;
     max-width: 1200px;
     margin: auto;
+  }
+
+  .adress, .mail, .phone {
+    margin-bottom: 5rem;
   }
 }
