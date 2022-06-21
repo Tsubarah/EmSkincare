@@ -11,15 +11,16 @@ export default function GallerySlider() {
   const settings = {
     dots: true,
     infinite: true,
-    speed: 500,
+    speed: 800,
     slidesToShow: 1,
     slidesToScroll: 1,
     centerMode: true,
     arrows: true,
-    // autoplay: true,
-    // autoplaySpeed: 3000,
-    // pauseOnHover:false,
-    // pauseOnFocus:false
+    centerPadding: 0 + 'px',
+    autoplay: true,
+    autoplaySpeed: 3000,
+    pauseOnHover:false,
+    // pauseOnFocus:false,
   }
 
   return (
@@ -27,7 +28,7 @@ export default function GallerySlider() {
       <Slider {...settings}>
         {imagesCopy.map(image => (
           <div key={image.name}>
-            <h2>{image.name}</h2>
+            {/* <h2>{image.name}</h2> */}
             <img src={image.url} alt={image.description} />
           </div>
         ))}

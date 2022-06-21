@@ -129,12 +129,6 @@ footer {
   cursor: pointer;
 }
 
-.slick-slide img {
-  margin-left: 50%;
-  margin-bottom: 5rem;
-  transform: translateX(-50%);
-}
-
 footer h6 {
   font-weight: normal;
 }
@@ -154,6 +148,33 @@ footer h6 {
   width: 2rem;
   height: 2rem;
 }
+
+.gallery h1 {
+  width: 5rem;
+  margin: auto;
+  margin-bottom: 2rem;
+}
+
+.slider {
+  margin-left: 50%;
+  margin-bottom: 5rem;
+  transform: translateX(-50%);
+}
+
+.slick-slide img {
+  width: 100%;
+}
+
+.slick-slide div {
+  outline: none;
+}
+
+/* .slick-slide img {
+  margin-left: 50%;
+  margin-bottom: 5rem;
+  transform: translateX(-50%);
+  border: 5px solid #f6ebe7;
+} */
 
 @media (min-width: 600px) {
   .navMenu a {
