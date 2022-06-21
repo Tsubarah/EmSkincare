@@ -5,7 +5,7 @@ import massage from '/assets/icons/massage.png'
 import pedicure from '/assets/icons/pedicure.png'
 import wax from '/assets/icons/waxing.png'
 
-export const iconsInfo = [
+export const icons = [
   {
     type: 'Facial',
     image: face,

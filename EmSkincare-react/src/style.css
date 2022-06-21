@@ -129,6 +129,12 @@ footer {
   cursor: pointer;
 }
 
+.slick-slide img {
+  margin-left: 50%;
+  margin-bottom: 5rem;
+  transform: translateX(-50%);
+}
+
 footer h6 {
   font-weight: normal;
 }

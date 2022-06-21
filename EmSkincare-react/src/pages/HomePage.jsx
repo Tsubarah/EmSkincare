@@ -3,9 +3,9 @@ import TreatmentIcons from '../components/TreatmentIcons'
 import './HomePage.css'
 import PageTransition from '../components/animations/PageTransition'
 import SwipeInFromBottom from '../components/animations/SwipeInFromBottom'
-import { iconsInfo } from '../services/HomePageIconsInfo'
+import { icons } from '../utils/icons'
 
-const iconsInfoCopy = [...iconsInfo]
+const iconsCopy = [...icons]
 
 export default function HomePage() {
   return (
@@ -17,7 +17,7 @@ export default function HomePage() {
         <h2>Our Treatments</h2>
         <SwipeInFromBottom>
           <div className="treatment-container">
-            {iconsInfoCopy.map(icon => (
+            {iconsCopy.map(icon => (
               <TreatmentIcons 
                 key={icon.type} 
                 iconType={icon.type} 

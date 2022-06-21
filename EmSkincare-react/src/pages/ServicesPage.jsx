@@ -1,4 +1,4 @@
-import { services } from '../services/services'
+import { services } from '../utils/services'
 import Service from '../components/Service'
 import './ServicesPage.css'
 import PageTransition from '../components/animations/PageTransition'
