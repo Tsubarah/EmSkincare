@@ -39,10 +39,10 @@
 }
 
 @media (min-width: 820px) {
-  .about-me {
+  /* .about-me-text {
     padding-right: 10rem;
     padding-left: 10rem;
-  }
+  } */
 }
 
 @media (min-width: 950px) {
@@ -54,6 +54,11 @@
 
   .about-me-container img {
     margin: auto auto;
+  }
+
+  .about-me {
+    padding-right: 10rem;
+    padding-left: 10rem;
   }
 }
 

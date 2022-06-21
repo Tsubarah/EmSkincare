@@ -11,12 +11,10 @@ export default function ContactPage() {
   return (
     <PageTransition>
       <div className="contact-wrapper">
-        <h1 className="contact-heading">
-          Contact us
-        </h1>
         <div className="contact-container">
           <img src={emSkincareClinic} alt="" />
           <article className="contact-intro">
+            <h1>Contact us</h1>
             <div className="contact-description">
               <p>Whether you want to know more about our offers, make an appointment for a treatment or come for a cconsultation, you are welcome to contact us. Below you will find contact information for our clinic</p>
             </div>
