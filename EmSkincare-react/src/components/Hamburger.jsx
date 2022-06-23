@@ -4,6 +4,10 @@ import { NavLink } from 'react-router-dom'
 const Hamburger = () => {
   const [showMenu, setShowMenu] = useState(false)
 
+  // const handleOnClick = () => {
+  //   setShowMenu(!showMenu)
+  // }
+
   return (
     <>
       <button
@@ -24,19 +28,19 @@ const Hamburger = () => {
       >
 
           <div className="mobileNav">
-            <NavLink to="/">
+            <NavLink to="/" onClick={() => setShowMenu(!showMenu)}>
               Home
             </NavLink>
-            <NavLink to="/about">
+            <NavLink to="/about" onClick={() => setShowMenu(!showMenu)}>
               About
             </NavLink>
-            <NavLink to="/services">
+            <NavLink to="/services" onClick={() => setShowMenu(!showMenu)}>
               Treatments
             </NavLink>
-            <NavLink to="/gallery">
+            <NavLink to="/gallery" onClick={() => setShowMenu(!showMenu)}>
               Gallery
             </NavLink>
-            <NavLink to="/contact">
+            <NavLink to="/contact" onClick={() => setShowMenu(!showMenu)}>
               Contact
             </NavLink>
           </div>
