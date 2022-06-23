@@ -19,7 +19,7 @@ export default function ContactPage() {
               <p>Whether you want to know more about our offers, make an appointment for a treatment or come for a cconsultation, you are welcome to contact us. Below you will find contact information for our clinic</p>
             </div>
             <div className="opening-hours">
-              <h2>Opening Hours</h2>
+              <h2>Opening hours</h2>
               <p>Monday - Friday: 08.30 - 16.00</p>
               <p>Saturday - Sunday: 10.00 - 16.00</p>
               <p>Lunch closed: 12.00 - 13.00</p>
