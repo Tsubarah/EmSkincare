@@ -39,7 +39,8 @@ footer {
 
 
 .nav-menu {
-  display: none;
+  display: flex;
+  visibility: hidden;
   position: sticky;
   top: 0;
   justify-content: center;
@@ -141,7 +142,7 @@ footer h6 {
   z-index: 1;
   background: #f6ebe7;
   transition: transform 0.15s ease-in-out;
-  will-change: transform;
+  /* will-change: transform; */
 }
 
 .mobileNav {
@@ -187,7 +188,7 @@ footer h6 {
   }
 
   .nav-menu {
-  display: flex;
+  visibility: visible;
 }
 }
 
