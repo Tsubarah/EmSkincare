@@ -51,7 +51,7 @@
           itemName: "Lash Lift 60",
           itemDescription: "Add content",
           price: 65,
-          duration: "20 min.",
+          duration: "60 min.",
         },
         {
           itemName: "Lash Lift 75",
