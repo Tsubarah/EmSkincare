@@ -13,15 +13,13 @@ export default function Navbar() {
             <img src={logo} alt="Logo of Emskin" />
           </a>
         </div>
-        {/* <div className="nav-menu"> */}
-          <div className="nav-menu">
-            <NavLink to="/">Home</NavLink>
-            <NavLink to="/about">About</NavLink>
-            <NavLink to="/services">Treatments</NavLink>
-            <NavLink to="/gallery">Gallery</NavLink>
-            <NavLink to="/contact">Contact</NavLink>
-          </div>
-        {/* </div> */}
+        <div className="nav-menu">
+          <NavLink to="/">Home</NavLink>
+          <NavLink to="/about">About</NavLink>
+          <NavLink to="/services">Treatments</NavLink>
+          <NavLink to="/gallery">Gallery</NavLink>
+          <NavLink to="/contact">Contact</NavLink>
+        </div>
       </div>
     </header>
   )
