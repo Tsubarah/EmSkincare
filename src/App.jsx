@@ -6,7 +6,7 @@ import AboutPage from './pages/AboutPage'
 import ServicesPage from './pages/ServicesPage'
 import ContactPage from './pages/ContactPage'
 import GalleryPage from './pages/GalleryPage'
-import Footer from './components/footer'
+import Footer from './components/Footer'
 import './style.css'
 
 function App() {

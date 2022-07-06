@@ -1,11 +1,11 @@
 import phone from '/assets/icons/phone.png';
 import mail from '/assets/icons/email.png';
 import location from '/assets/icons/location.png';
-import facebook from '/assets/icons/facebookMini2.png'
+import instagram from '/assets/icons/instagram.svg'
 import emSkincareClinic from '/assets/images/emSkincareClinic.jpg';
-import './ContactPage.css'
 import PageTransition from '../components/animations/PageTransition';
 import SwipeInFromBottom from '../components/animations/SwipeInFromBottom';
+import './ContactPage.css'
 
 export default function ContactPage() {
   return (
@@ -20,17 +20,15 @@ export default function ContactPage() {
             </div>
             <div className="opening-hours">
               <h2>Opening hours</h2>
-              <p>Monday - Friday: 08.30 - 16.00</p>
-              <p>Saturday - Sunday: 10.00 - 16.00</p>
-              <p>Lunch closed: 12.00 - 13.00</p>
+              <p>Tuesday - Saturday: 10.00 - 18.00</p>
             </div>
             <a 
-              href="https://facebook.com" 
+              href="https://instagram.com/em.skincare.antibes?igshid=YmMyMTA2M2Y=" 
               target="_blank" 
-              className="facebook-btn"
+              className="instagram-btn"
             >
-              <img src={facebook} alt="" />
-              Like us on facebook!
+              <img src={instagram} alt="Icon of Instagram" />
+              Like us on Instagram!
             </a>
           </article>
         </div>
@@ -39,19 +37,19 @@ export default function ContactPage() {
             <div className="adress">
               <img src={location} alt="" />
               <h4>ADRESS</h4>
-              <p>Kamrergatan 11, 211 56 Malmö</p>
+              <p>16 Rue du marc, Antibes 06600</p>
             </div>
 
             <div className="mail">
               <img src={mail} alt="" />
               <h4>E-MAIL</h4>
-              <p>benjamin@tsubarah.com</p>
+              <p>info@emskincare.fr</p>
             </div>
             
             <div className="phone">
               <img src={phone} alt="" />
               <h4>PHONE</h4>
-              <p>+46722896917</p>
+              <p>+339 83 99 02 45</p>
             </div>
           </div>
         </SwipeInFromBottom>

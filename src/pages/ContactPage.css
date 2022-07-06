@@ -59,12 +59,13 @@
   box-shadow: 5px 5px 20px 10px rgba(0,0,0,0.1);
 }
 
-.facebook-btn {
+.instagram-btn {
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
   margin-top: 2rem;
   padding: 0.5rem;
+  width: 210px;
   text-decoration: none;
   white-space: nowrap;
   font-size: 1.2rem;
@@ -76,14 +77,15 @@
   cursor: pointer;
 }
 
-.facebook-btn:hover {
+.instagram-btn:hover {
   background-color: #f9d9cd;
   box-shadow: 0px 15px 20px rgba(244, 241, 210, 0.938);
 }
 
-.facebook-btn img {
-  max-width: 15px;
+.instagram-btn img {
+  max-width: 20px;
   margin-right: 0.3rem;
+  vertical-align: middle;
 }
 
 @media (min-width: 600px) {
@@ -112,7 +114,7 @@
     margin: 20px 0px 0px 0px;
   }
 
-  .facebook-btn {
+  .instagram-btn {
     position: absolute;
     left: 90%;
     bottom: 5%;
