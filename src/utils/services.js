@@ -49,7 +49,7 @@
       items: [
         {
           itemName: "Lash Lift 60",
-          itemDescription: "Add content",
+          itemDescription: "",
           price: 65,
           duration: "60 min.",
         },
@@ -73,7 +73,7 @@
         },
         {
           itemName: "Lash Tinting",
-          itemDescription: "Add content",
+          itemDescription: "",
           price: 22,
           duration: "30 min.",
         },
@@ -110,7 +110,7 @@
         },
         {
           itemName: "Facial Massage",
-          itemDescription: "Add content.",
+          itemDescription: "",
           price: 35,
           duration: "30 min.",
         },
@@ -119,71 +119,71 @@
     {
       section: "waxing",
       name: "Waxing",
-      description: "Add content about waxing",
+      description: "Our skincare will make you shine.",
       items: [
         {
           itemName: "Full Legs",
-          itemDescription: "Add Content",
+          itemDescription: "",
           price: 55,
           duration: "60 min.",
         },
         {
           itemName: "Half Legs",
-          itemDescription: "Add Content",
+          itemDescription: "",
           price: 35,
           duration: "30 min.",
         },
         {
           itemName: "Bikini",
-          itemDescription: "Add Content",
+          itemDescription: "",
           price: 29,
           duration: "30 min.",
         },
         {
           itemName: "Full Legs & Bikini",
-          itemDescription: "Add Content",
+          itemDescription: "",
           price: 75,
           duration: "90 min.",
         },
         {
           itemName: "Half Legs & Bikini",
-          itemDescription: "Add Content",
+          itemDescription: "",
           price: 48,
           duration: "60 min.",
         },
         {
           itemName: "Arms",
-          itemDescription: "Add Content",
+          itemDescription: "",
           price: 30,
           duration: "30 min.",
         },
         {
           itemName: "Underarms",
-          itemDescription: "Add Content",
+          itemDescription: "",
           price: 18,
           duration: "15 min.",
         },
         {
           itemName: "Back",
-          itemDescription: "Add Content",
+          itemDescription: "",
           price: 35,
           duration: "30 min.",
         },
         {
           itemName: "Stomach",
-          itemDescription: "Add Content",
+          itemDescription: "",
           price: 40,
           duration: "30 min.",
         },
         {
           itemName: "Full Face",
-          itemDescription: "Add Content",
+          itemDescription: "",
           price: 25,
           duration: "30 min.",
         },
         {
           itemName: "Specific Part of Face",
-          itemDescription: "Add Content",
+          itemDescription: "",
           price: 18,
           duration: "15 min.",
         },
@@ -192,7 +192,7 @@
     {
       section: "pedicure",
       name: "Pedicure",
-      description: "Add content about pedicure",
+      description: "The perfect pedicure can make a flip flop look like a stiletto",
       items: [
         {
           itemName: "Pedicure",
@@ -206,6 +206,31 @@
           price: 55,
           duration: "75 min.",
         },
+      ],
+    },     {
+      section: "specials",
+      name: "Special Treatments",
+      description: "",
+      items: [
+        {
+          itemName: "Pro Power Peel 30",
+          itemDescription: "For you who want a time-efficient and powerful treatment. The peeling is only applied for the face including the lower jaw line.",
+          price: 80,
+          duration: "30 min.",
+        },
+        {
+          itemName: "Pro Power Peel 60",
+          itemDescription: "For you who want both results and experience. The peeling is applied to the décolleté, neck and face. The treatment ends with in-depth intensive treatment including serum, mask and touch therapy.",
+          price: 140,
+          duration: "60 min.",
+        },
+        {
+          itemName: "Microneedling 75",
+          itemDescription: "A treatment that gives radiance and a smoother skin structure. Microneedling is a treatment where you create a controlled damage to the skin by piercing the skin with extremly thin and sharp needles so the skin can start its normal healing process. An inflammatory condition occurs (redness, swelling and heat). This stimulates the skin to form new collagen (firmness fibers) which gives an improved skin structure. In the treatment we use sterile disposable needles and treatment materials.",
+          price: 150,
+          duration: "75 min.",
+        },
+        
       ],
     },
   ]

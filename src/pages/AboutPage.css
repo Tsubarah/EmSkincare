@@ -4,8 +4,12 @@
 } */
 
 .about-emskincare {
-  /* max-width: 1100px; */
+  display: flex;
+  flex-direction: column;
+  /* text-align: center; */
   margin: auto;
+  box-sizing: border-box;
+  border: 2px solid #f6ebe7;
 }
 
 .about-emskincare p {
@@ -33,6 +37,10 @@
   width: auto;
   height: auto;
   margin: auto;
+}
+
+.about-me {
+  margin: 0;
 }
 
 .about-me-text h1 {
@@ -64,8 +72,13 @@
 
 @media (min-width: 950px) {
   .about-emskincare {
-    max-width: 600px;
+    max-width: 1200px;
   }
+
+  .about-emskincare p {
+    padding: 2rem;
+  }
+
   .about-me-container {
     max-width: 1200px;
     padding: 5rem;
@@ -76,16 +89,13 @@
   }
 
   .about-me {
+    margin-top: 4rem;
     padding-right: 10rem;
     padding-left: 10rem;
   }
 }
 
 @media (min-width: 1400px) {
-  .about-emskincare {
-    min-width: 1100px;
-  }
-
   .about-me-container {
     flex-direction: row;
   }
