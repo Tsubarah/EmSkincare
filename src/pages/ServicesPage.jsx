@@ -2,7 +2,7 @@ import { services } from '../utils/services'
 import Service from '../components/Service'
 import './ServicesPage.css'
 import PageTransition from '../components/animations/PageTransition'
-import treatmentsImg from '/assets/images/treatments-background.png'
+// import treatmentsImg from '/assets/images/treatments-background.png'
 
 export default function ServicesPage() {
   
