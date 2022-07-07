@@ -16,7 +16,7 @@ export default function Navbar() {
           <NavLink to="/">Home</NavLink>
           <NavLink to="/about">About</NavLink>
           <NavLink to="/services">Treatments</NavLink>
-          <a href="https://www.planity.com/emskincare-06600-antibes" target="_blank">Book</a>
+          <a href="https://www.planity.com/emskincare-06600-antibes" target="_blank">Booking</a>
           <NavLink to="/gallery">Gallery</NavLink>
           <NavLink to="/contact">Contact</NavLink>
         </div>

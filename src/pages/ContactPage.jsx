@@ -12,7 +12,7 @@ export default function ContactPage() {
     <PageTransition>
       <div className="contact-wrapper">
         <div className="contact-container">
-          <img src={emSkincareClinic} alt="" />
+          <img src={emSkincareClinic} alt="Image of the clinic"/>
           <article className="contact-intro">
             <h1>Contact us</h1>
             <div className="contact-description">

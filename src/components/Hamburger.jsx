@@ -41,7 +41,7 @@ const Hamburger = () => {
             <NavLink to="/services" onClick={() => setShowMenu(!showMenu)}>
               Treatments
             </NavLink>
-            <a href="https://www.planity.com/emskincare-06600-antibes" target="_blank">Book</a>
+            <a href="https://www.planity.com/emskincare-06600-antibes" target="_blank">Booking</a>
             <NavLink to="/gallery" onClick={() => setShowMenu(!showMenu)}>
               Gallery
             </NavLink>
