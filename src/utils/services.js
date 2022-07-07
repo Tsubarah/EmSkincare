@@ -225,7 +225,7 @@
           duration: "60 min.",
         },
         {
-          itemName: "Microneedling 75",
+          itemName: "Microneedling",
           itemDescription: "A treatment that gives radiance and a smoother skin structure. Microneedling is a treatment where you create a controlled damage to the skin by piercing the skin with extremly thin and sharp needles so the skin can start its normal healing process. An inflammatory condition occurs (redness, swelling and heat). This stimulates the skin to form new collagen (firmness fibers) which gives an improved skin structure. In the treatment we use sterile disposable needles and treatment materials.",
           price: 150,
           duration: "75 min.",
