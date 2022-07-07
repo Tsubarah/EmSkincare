@@ -2,6 +2,7 @@ import { services } from '../utils/services'
 import Service from '../components/Service'
 import './ServicesPage.css'
 import PageTransition from '../components/animations/PageTransition'
+import treatmentsImg from '/assets/images/treatments-background.png'
 
 export default function ServicesPage() {
   
@@ -11,6 +12,7 @@ export default function ServicesPage() {
     <PageTransition>
       <main className="wrapper">
         <section className="service-info">
+          {/* <img className="treatments-img" src={treatmentsImg} alt="treatments-image" /> */}
           <div className="service-info-text">
             <h1>What to consider before treatment:</h1>
             <p>Feel free to come 5 minutes before your appointment, it can be nice to sit down and take a few deep breaths before it is time for your treatment. Please let us know if you would not be able to show up for your appointment - at the latest, the day before.</p>

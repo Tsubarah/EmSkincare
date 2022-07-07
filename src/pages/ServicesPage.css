@@ -6,6 +6,7 @@
   padding-top: 2rem;
   padding-bottom: 5rem;
   background-image: url("/assets/images/treatments-background.png");
+  background-size: auto;
   background-position: left;
   /* background-size: cover;
   background-position: right; */
