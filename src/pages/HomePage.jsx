@@ -12,7 +12,13 @@ export default function HomePage() {
   <PageTransition>
     <main className="wrapper">
       <Hero />
-
+      {/* <a 
+        href="https://instagram.com/em.skincare.antibes?igshid=YmMyMTA2M2Y=" 
+        target="_blank" 
+        className="book-btn"
+      >
+        Book an appointment today
+      </a> */}
       <section className="treatments">
         <h2>Our Treatments</h2>
         <SwipeInFromBottom>

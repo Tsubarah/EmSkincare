@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { NavLink } from 'react-router-dom'
+import logo from '/assets/images/logo.png'
 
 const Hamburger = () => {
   const [showMenu, setShowMenu] = useState(false)
@@ -26,6 +27,9 @@ const Hamburger = () => {
         transform: `${showMenu ? "none" : "translate3d(100vw, 0, 0)"}`,
       }}
       >
+          <a href="/" className="hamburger-logo">
+            <img src={logo} alt="Logo of Emskin" />
+          </a>
 
           <div className="mobileNav">
             <NavLink to="/" onClick={() => setShowMenu(!showMenu)}>
@@ -37,6 +41,7 @@ const Hamburger = () => {
             <NavLink to="/services" onClick={() => setShowMenu(!showMenu)}>
               Treatments
             </NavLink>
+            <a href="https://www.planity.com/emskincare-06600-antibes" target="_blank">Book</a>
             <NavLink to="/gallery" onClick={() => setShowMenu(!showMenu)}>
               Gallery
             </NavLink>

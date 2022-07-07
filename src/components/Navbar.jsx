@@ -5,8 +5,7 @@ import Hamburger from './Hamburger'
 export default function Navbar() {
 
   return (
-    <header>
-      <div className="topnav">
+    <header className="topnav">
         <Hamburger />
         <div className="logo-container">
           <a href="/" className="logo">
@@ -17,10 +16,10 @@ export default function Navbar() {
           <NavLink to="/">Home</NavLink>
           <NavLink to="/about">About</NavLink>
           <NavLink to="/services">Treatments</NavLink>
+          <a href="https://www.planity.com/emskincare-06600-antibes" target="_blank">Book</a>
           <NavLink to="/gallery">Gallery</NavLink>
           <NavLink to="/contact">Contact</NavLink>
         </div>
-      </div>
     </header>
   )
 }
