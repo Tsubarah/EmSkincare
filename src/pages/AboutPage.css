@@ -6,7 +6,6 @@
 .about-emskincare {
   display: flex;
   flex-direction: column;
-  /* text-align: center; */
   margin: auto;
   box-sizing: border-box;
   border: 4px solid #f6ebe7;
