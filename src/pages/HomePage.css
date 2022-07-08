@@ -16,6 +16,7 @@
 }
 
 .hero-img {
+  position: absolute;
   display: block;
   height: 370px;
 }
