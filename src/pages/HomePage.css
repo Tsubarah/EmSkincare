@@ -1,6 +1,8 @@
 .hero {
   position: relative;
   height: 370px;
+  max-width: 100%;
+  overflow: hidden;
 }
 
 .hero-text {
@@ -16,7 +18,6 @@
 }
 
 .hero-img {
-  position: absolute;
   display: block;
   height: 370px;
 }
