@@ -91,6 +91,12 @@ export const services = [
         price: 25,
         duration: "45 min.",
       },
+      {
+        itemName: "Brow Shaping",
+        itemDescription: "",
+        price: 20,
+        duration: "30 min.",
+      },
     ],
   },
   {
